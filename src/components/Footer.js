@@ -130,7 +130,7 @@ const Footer = () => (
         fontWeight: '400',
       }}
     >
-      'The real workout starts when you want to stop.'
+      The real workout starts when you want to stop. &#39;Never give up&#39;
     </Typography>
 
     {/* Copyright */}

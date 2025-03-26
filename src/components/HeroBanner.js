@@ -1,5 +1,5 @@
 import React from 'react';
-import { Box, Stack, Typography, Button } from '@mui/material';
+import { Box, Typography, Button } from '@mui/material';
 
 import Navbar from './Navbar';
 import HeroBannerImage from '../assets/images/heroimage.webp';

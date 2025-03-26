@@ -13,22 +13,22 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
           fontWeight: '600',
           mb: '24px',
         }}
-        color='#333'
+        color="#333"
       >
         Watch <span style={{ color: '#FF2625' }}>{name}</span> exercise videos
       </Typography>
       <Stack
-        direction='row'
-        gap='24px'
-        justifyContent='flex-start'
-        flexWrap='wrap'
+        direction="row"
+        gap="24px"
+        justifyContent="flex-start"
+        flexWrap="wrap"
       >
         {exerciseVideos.slice(0, 3).map((item, index) => (
           <a
             key={index}
             href={`https://www.youtube.com/watch?v=${item.video.videoId}`}
-            target='_blank'
-            rel='noreferrer'
+            target="_blank"
+            rel="noreferrer"
             style={{
               textDecoration: 'none',
               borderRadius: '16px',
@@ -54,11 +54,11 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
                 borderTopRightRadius: '16px',
               }}
             />
-            <Box p='12px' sx={{ backgroundColor: '#fafafa' }}>
+            <Box p="12px" sx={{ backgroundColor: '#fafafa' }}>
               <Typography
-                fontSize='18px'
-                fontWeight='600'
-                color='#333'
+                fontSize="18px"
+                fontWeight="600"
+                color="#333"
                 sx={{
                   whiteSpace: 'normal',
                   overflowWrap: 'break-word',
@@ -68,8 +68,8 @@ const ExerciseVideos = ({ exerciseVideos, name }) => {
                 {item.video.title}
               </Typography>
               <Typography
-                fontSize='14px'
-                color='#666'
+                fontSize="14px"
+                color="#666"
                 sx={{
                   whiteSpace: 'normal',
                   overflowWrap: 'break-word',
