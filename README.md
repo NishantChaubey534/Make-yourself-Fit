@@ -1,4 +1,4 @@
-BeastMode Fitness App 💪
+🏋️ BeastMode Fitness App 💪
 BeastMode is a modern and fully responsive Fitness App built with React.js and Material UI. The app allows users to search for exercises, view exercise details, and watch related workout videos from YouTube. It also features a sleek and modern design with smooth transitions, intuitive navigation, and real-time data fetching using RapidAPI.
 
 🚀 Features
@@ -76,7 +76,7 @@ Create a .env file in the root directory and add the following:
 bash
 Copy
 Edit
-REACT_APP_RAPIDAPI_KEY=your_rapidapi_key
+REACT_APP_RAPIDAPI_KEY=your_rapidapi_key  
 REACT_APP_RAPIDAPI_HOST=exercisedb.p.rapidapi.com
 5. Start the development server:
 bash
@@ -153,8 +153,13 @@ Tested on Chrome, Firefox, and Edge.
 Fully responsive on mobile, tablet, and desktop devices.
 
 🙌 Contributing
-Fork the repository.
+🛠️ How to Contribute:
+Fork the repository:
 
+bash
+Copy
+Edit
+git clone https://github.com/NishantChaubey534/Make-yourself-Fit.git
 Create a new branch:
 
 bash
